@@ -1,0 +1,4 @@
+graft src/moda
+graft docs
+include *.rst
+global-exclude *.pyc
