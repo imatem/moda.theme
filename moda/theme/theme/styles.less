@@ -2,8 +2,46 @@
 @import "++theme++barceloneta/less/barceloneta.plone.less";
 
 /* Customize whatever you want */
-@plone-sitenav-bg: pink;
-@plone-sitenav-link-hover-bg: darken(pink, 20%);
+@plone-sitenav-bg: rgb(10,82,141);
+@plone-sitenav-link-hover-bg: rgb(38,54,105);
 .plone-nav > li > a {
-  color: @plone-text-color;
+  color: white;
+}
+#portal-header {
+    width: 100%;
+    height: 239px;
+    padding: 0;
+    margin: 0;
+    background-image: url('fr-mx-logo.png');
+    background-size: contain; /* Könnte variieren -contain- */
+    background-repeat: no-repeat;
+    background-position: center center; /* x-Ausrichtung - y-Ausrichtung */
+}
+/*// Media Queries //*/
+@media screen and (max-width: 991px){
+    #portal-header{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #portal-header{
+        height: 120px;
+    }
+}
+
+#portal-footer-wrapper,
+#content-header {
+    background-color: rgb(38,54,105);
+}
+
+
+#sponsors {
+  padding-top: 14px;
+  text-align: center;
+}
+
+#sponsors li{
+    display: inline-block;
+    padding-left: 10px;
 }

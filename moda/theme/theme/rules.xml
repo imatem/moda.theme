@@ -10,6 +10,10 @@
 
   <rules css:if-content="#visual-portal-wrapper">
     <!-- Placeholder for your own additional rules -->
+    <drop css:content="#portal-logo" />
+    <drop css:content="#portal-searchbox" />
+    <drop css:content="#portal-footer-signature" />
+    <drop css:content="#portal-colophon" />
   </rules>
 
 </rules>
